@@ -1,0 +1,5 @@
+{
+    "connectionString":"postgresql://root:password@localhost:5555/graphile-migrate-test",
+    "shadowConnectionString":"postgresql://root:password@localhost:5556/graphile-migrate-test-shadow",
+    "afterReset":[]
+}

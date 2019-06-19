@@ -1,0 +1,22 @@
+version: "3.4"
+services:
+  postgres:
+    image: postgres:11.2
+    container_name: graphile-migrate-test
+    restart: always
+    ports:
+      - 5555:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: graphile-migrate-test
+  postgres-shadow:
+    image: postgres:11.2
+    container_name: graphile-migrate-test-shadow
+    restart: always
+    ports:
+      - 5556:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: graphile-migrate-test-shadow

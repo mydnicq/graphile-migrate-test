@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS status;
+CREATE TABLE status(
+    id INTEGER PRIMARY KEY,
+    value TEXT UNIQUE NOT NULL,
+    display TEXT NOT NULL
+);
