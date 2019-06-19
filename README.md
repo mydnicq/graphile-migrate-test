@@ -1,6 +1,6 @@
 ## Instructions
 
-This is a testing repo for evalutating a database migration tool [graphile-migrate](https://www.npmjs.com/package/graphile-migrate).
+This is a testing repo for evaluating a database migration tool [graphile-migrate](https://www.npmjs.com/package/graphile-migrate).
 
 ```
 npm i
