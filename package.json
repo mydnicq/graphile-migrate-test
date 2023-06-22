@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "graphile-migrate": "0.0.2"
+    "graphile-migrate": "1.4.1"
   }
 }
